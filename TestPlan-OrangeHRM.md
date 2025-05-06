@@ -17,7 +17,7 @@
 
 ## 測試環境
 - Windows 11
-- Google Chrome（版本xxx）
+- Google Chrome（版本 135.0.7049.97）
 - 測試帳號：Admin/admin123
 
 ## 測試進度預估
