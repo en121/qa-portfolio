@@ -1,0 +1,11 @@
+# API Testing Projects
+
+This folder contains my API testing projects using Postman.
+
+## Project
+- JSONPlaceholder API Testing
+  - GET /posts/1
+  - POST /posts
+
+## Objective
+Validate RESTful API endpoints by manually testing and running them through Postman's Collection Runner.
