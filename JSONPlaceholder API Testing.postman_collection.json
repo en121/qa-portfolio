@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "4c776fc4-2542-4927-bbca-a205df13bad1",
+		"name": "JSONPlaceholder API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44665537",
+		"_collection_link": "https://en-8421250.postman.co/workspace/en's-Workspace~1201ae0e-4684-4e7e-8323-a97b090acfd4/collection/44665537-4c776fc4-2542-4927-bbca-a205df13bad1?action=share&source=collection_link&creator=44665537"
+	},
+	"item": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.cwa.gov.tw/V8/C/W/County/index.html",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.cwa.gov.tw/V8/C/W/County/index.html",
+					"protocol": "https",
+					"host": [
+						"www",
+						"cwa",
+						"gov",
+						"tw"
+					],
+					"path": [
+						"V8",
+						"C",
+						"W",
+						"County",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
